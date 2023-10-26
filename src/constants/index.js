@@ -1,4 +1,4 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
+import { facebook, instagram, linkedin, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
@@ -118,7 +118,8 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", link:"https://www.facebook.com/vivek.jami.90" },
+    { src: twitter, alt: "twitter logo" , link: "https://twitter.com/VivekJami4"},
+    { src: instagram, alt: "instagram logo", link: "https://www.instagram.com/jamivivek/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" },
+    { src: linkedin, alt:"linkedin logo", link: "https://www.linkedin.com/in/vivek-jami-bbaa2622a/"}
 ];
